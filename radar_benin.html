@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6afc59746a038482b2ff639b5c5e8322 {
+                #map_4ad2f588d00fd0f72d66c44215bf5a0c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -60,20 +60,20 @@
         <b style="font-size: 16px;">🛰️ COMMAND CENTER V6.0</b><br>
         <small>Mode: AUTO-SYNC GITHUB</small><hr>
         <b>LOGS SYSTÈME :</b>
-        <div style="font-size: 11px; color: #fff;"></div>
+        <div style="font-size: 11px; color: #fff;"><div>[15:21:36] Nouvelle cible : AFR123</div><div>[15:21:36] Nouvelle cible : DHA44</div></div>
         <hr>
         <b>Vols actifs: 2</b>
     </div>
     
     
-            <div class="folium-map" id="map_6afc59746a038482b2ff639b5c5e8322" ></div>
+            <div class="folium-map" id="map_4ad2f588d00fd0f72d66c44215bf5a0c" ></div>
         
 </body>
 <script>
     
     
-            var map_6afc59746a038482b2ff639b5c5e8322 = L.map(
-                "map_6afc59746a038482b2ff639b5c5e8322",
+            var map_4ad2f588d00fd0f72d66c44215bf5a0c = L.map(
+                "map_4ad2f588d00fd0f72d66c44215bf5a0c",
                 {
                     center: [9.3, 2.3],
                     crs: L.CRS.EPSG3857,
@@ -90,7 +90,7 @@
 
         
     
-            var tile_layer_befa74417effb4099e77ff3e870be92a = L.tileLayer(
+            var tile_layer_83dccf1eb4f93229ea1c46f3f18872de = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -107,23 +107,23 @@
             );
         
     
-            tile_layer_befa74417effb4099e77ff3e870be92a.addTo(map_6afc59746a038482b2ff639b5c5e8322);
+            tile_layer_83dccf1eb4f93229ea1c46f3f18872de.addTo(map_4ad2f588d00fd0f72d66c44215bf5a0c);
         
     
-            var poly_line_f55b4c3659c0bd070a631f60e8e01026 = L.polyline(
-                [[6.45, 2.35]],
+            var poly_line_e9ad908b7d38aee942501a8d76e90ed4 = L.polyline(
+                [[6.45, 2.35], [6.45, 2.35]],
                 {"bubblingMouseEvents": true, "color": "#00ff88", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00ff88", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_6afc59746a038482b2ff639b5c5e8322);
+            ).addTo(map_4ad2f588d00fd0f72d66c44215bf5a0c);
         
     
-            var marker_ff4a7a420d544d8c1b925111fd627291 = L.marker(
+            var marker_5e66bfa63b01e0040da0568377273307 = L.marker(
                 [6.45, 2.35],
                 {
 }
-            ).addTo(map_6afc59746a038482b2ff639b5c5e8322);
+            ).addTo(map_4ad2f588d00fd0f72d66c44215bf5a0c);
         
     
-            var icon_82910f9e422ba1c733baec0aced351e9 = L.AwesomeMarkers.icon(
+            var icon_07f2d399ba64dbb8782b7715475efa84 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -134,40 +134,40 @@
             );
         
     
-        var popup_b2452d8aa059a2c9b15c829af99bca64 = L.popup({
+        var popup_7d5d6cb7fbbeffd2d4785f366ddfcee2 = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_1481d9af446ad4a09d05fd4043e8f4bb = $(`<div id="html_1481d9af446ad4a09d05fd4043e8f4bb" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <b style="font-size: 14px;">Vol: AFR123</b><br><hr>             <b>Statut:</b> 🟢 EN VOL<br>             <b>Altitude:</b> 1200 m<br>             <b>Vitesse:</b> 450 km/h<br>             <b>Distance/Cotonou:</b> 13.4 km         </div>         </div>`)[0];
-                popup_b2452d8aa059a2c9b15c829af99bca64.setContent(html_1481d9af446ad4a09d05fd4043e8f4bb);
+                var html_61d8627440c788587222d1bb8a26bf91 = $(`<div id="html_61d8627440c788587222d1bb8a26bf91" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <b style="font-size: 14px;">Vol: AFR123</b><br><hr>             <b>Statut:</b> 🟢 EN VOL<br>             <b>Altitude:</b> 1200 m<br>             <b>Vitesse:</b> 450 km/h<br>             <b>Distance/Cotonou:</b> 13.4 km         </div>         </div>`)[0];
+                popup_7d5d6cb7fbbeffd2d4785f366ddfcee2.setContent(html_61d8627440c788587222d1bb8a26bf91);
             
         
 
-        marker_ff4a7a420d544d8c1b925111fd627291.bindPopup(popup_b2452d8aa059a2c9b15c829af99bca64)
+        marker_5e66bfa63b01e0040da0568377273307.bindPopup(popup_7d5d6cb7fbbeffd2d4785f366ddfcee2)
         ;
 
         
     
     
-                marker_ff4a7a420d544d8c1b925111fd627291.setIcon(icon_82910f9e422ba1c733baec0aced351e9);
+                marker_5e66bfa63b01e0040da0568377273307.setIcon(icon_07f2d399ba64dbb8782b7715475efa84);
             
     
-            var poly_line_93c63f0b8d3c6ccd7f2a9831a8e0b5bf = L.polyline(
-                [[9.32, 2.61]],
+            var poly_line_e56aa7302ffe54c9347c0767c415a669 = L.polyline(
+                [[9.32, 2.61], [9.32, 2.61]],
                 {"bubblingMouseEvents": true, "color": "#00ff88", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00ff88", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_6afc59746a038482b2ff639b5c5e8322);
+            ).addTo(map_4ad2f588d00fd0f72d66c44215bf5a0c);
         
     
-            var marker_6f4a9917398505ed33e861aeeb0b4265 = L.marker(
+            var marker_7e432c4c67397ee9266ab1328ed2228f = L.marker(
                 [9.32, 2.61],
                 {
 }
-            ).addTo(map_6afc59746a038482b2ff639b5c5e8322);
+            ).addTo(map_4ad2f588d00fd0f72d66c44215bf5a0c);
         
     
-            var icon_50256428e4fcc91bf26f4cb05f7371be = L.AwesomeMarkers.icon(
+            var icon_a5aba57e08e21b17cf77924d8de89e10 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -178,24 +178,24 @@
             );
         
     
-        var popup_d4457a70cb009898ae5bed9e01962ba0 = L.popup({
+        var popup_686f4c5bdb1ba72766e961ad86569d38 = L.popup({
   "maxWidth": 250,
 });
 
         
             
-                var html_e703a711f9715624ac48cad1ac0b150d = $(`<div id="html_e703a711f9715624ac48cad1ac0b150d" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <b style="font-size: 14px;">Vol: DHA44</b><br><hr>             <b>Statut:</b> 🔴 ATTERRISSAGE / SOL<br>             <b>Altitude:</b> 0 m<br>             <b>Vitesse:</b> 20 km/h<br>             <b>Distance/Cotonou:</b> 329.7 km         </div>         </div>`)[0];
-                popup_d4457a70cb009898ae5bed9e01962ba0.setContent(html_e703a711f9715624ac48cad1ac0b150d);
+                var html_e1e41489cb6d4b3bf58379035941b36c = $(`<div id="html_e1e41489cb6d4b3bf58379035941b36c" style="width: 100.0%; height: 100.0%;">         <div style="font-family: Arial; width: 200px;">             <b style="font-size: 14px;">Vol: DHA44</b><br><hr>             <b>Statut:</b> 🔴 ATTERRISSAGE / SOL<br>             <b>Altitude:</b> 0 m<br>             <b>Vitesse:</b> 20 km/h<br>             <b>Distance/Cotonou:</b> 329.7 km         </div>         </div>`)[0];
+                popup_686f4c5bdb1ba72766e961ad86569d38.setContent(html_e1e41489cb6d4b3bf58379035941b36c);
             
         
 
-        marker_6f4a9917398505ed33e861aeeb0b4265.bindPopup(popup_d4457a70cb009898ae5bed9e01962ba0)
+        marker_7e432c4c67397ee9266ab1328ed2228f.bindPopup(popup_686f4c5bdb1ba72766e961ad86569d38)
         ;
 
         
     
     
-                marker_6f4a9917398505ed33e861aeeb0b4265.setIcon(icon_50256428e4fcc91bf26f4cb05f7371be);
+                marker_7e432c4c67397ee9266ab1328ed2228f.setIcon(icon_a5aba57e08e21b17cf77924d8de89e10);
             
 </script>
 </html>
